@@ -35,25 +35,25 @@
 6. **Statistics Reporting**: If enabled, the script tallies the number of entities censored for each category and displays these counts either on the console or writes them to a specified file, offering insights into the censorship process's extent.
 
 ## Functions
-### `main`
+### main
 - **Purpose**: Orchestrates the entire censoring process. It interprets command-line inputs from the user, specifying what types of data to censor and where to find and save files.
   
-### `process_files`
+### process_files
 - **Purpose**: Manages the workflow for each file specified in the input. Reads content from each file, applies censorship based on user-defined criteria, and saves the censored content to a new file in the designated output directory. It's where the application's loop over files and subsequent actions begin.
 
-### `censor_document`
+### censor_document
 - **Purpose**: The heart of the censorship process, where the document's text is sequentially processed to censor specified entities. It invokes various functions tailored to censor different types of sensitive information, ensuring each selected category (names, dates, phone numbers, and addresses) is adequately redacted from the document.
 
-### `censor_email_addresses`
+### censor_email_addresses
 - **Purpose**: Utilizes a regex pattern to find and censor email addresses in the text. It's crucial for removing personal contact information, enhancing the privacy of communications detailed within the documents.
 
-### `censor_addresses`
+### censor_addresses
 - **Purpose**: Leverages the `pyap` library to detect and redact physical addresses. This function is particularly important for protecting location data, a key aspect of personal privacy.
 
-### `censor_google_entities`
+### censor_google_entities
 - **Purpose**: Integrates with Google Cloud's Natural Language API to identify and censor personal names and dates. This function exemplifies the use of external AI services to enhance the application's ability to understand and process natural language for privacy protection.
 
-### `censor_phone_numbers`
+### censor_phone_numbers
 - **Purpose**: Applies regex to identify and censor various phone number formats present in the text. It plays a critical role in ensuring that personal contact numbers are not exposed in the censored documents.
 
 
