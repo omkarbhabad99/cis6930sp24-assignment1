@@ -9,16 +9,17 @@ import re
 import sys
 import spacy.cli
 
-# Load the spaCy model
+# Load the spaCy English model for natural language processing.
 spacy.cli.download("en_core_web_md")
 nlp = spacy.load("en_core_web_md")
 
+# Set the path for Google Cloud credentials for using the Natural Language API.
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'spherical-gate-416621-bf139b8e78c0.json'
 
-# Initialize the Google NLP client
+# Initialize the Google Cloud Natural Language client.
 google_nlp_client = language_v1.LanguageServiceClient()
 
-# Entity counters
+# Dictionary to keep track of how many entities of each type have been censored.
 entity_counters = {
     'NAMES': 0,
     'DATES': 0,
@@ -131,6 +132,7 @@ def process_files(args):
                 print(f"{key}: {value}", file=sys.stderr)
 
 def main():
+    """Defines command-line arguments and initiates the file processing with specified options."""
     parser = argparse.ArgumentParser(description="Censor sensitive information from text files.")
     parser.add_argument("--input", type=str, help="Input file pattern, e.g., '*.txt'")
     parser.add_argument("--output", type=str, help="Output directory for censored files")
