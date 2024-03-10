@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 pytest = "*"
 spacy = "*"
+pyap = "*"
+google-cloud-language = "*"
 
 [dev-packages]
 
