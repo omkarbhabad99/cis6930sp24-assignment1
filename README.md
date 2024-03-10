@@ -78,6 +78,16 @@ tests are designed to verify the functionality of each censorship feature—name
    - **test_censor_simple_date**: Focuses on the script's ability to detect and censor dates in a simple numeric format.
    - **test_censor_full_date**: Evaluates the censoring of fully written dates, including those with month names and ordinal numbers, testing the script's natural language processing capabilities.
 
+### Assumptions
+
+1. **Case Sensitivity in Names**: The tool primarily detects names that start with uppercase letters. Names beginning with lowercase, like "allen" or "john," might not be consistently censored, affecting the tool's ability to fully anonymize text documents.
+
+2. **Standard Address Formats**: It's assumed that addresses are presented in recognizable formats. Addresses that deviate from common patterns or are fragmented may evade detection, potentially leaving sensitive location information uncensored.
+
+3. **Overcensoring Common Words**: There's a possibility of over-censoring, where words or phrases not meant to be redacted are obscured because they resemble or contain parts of sensitive entities. For instance, "Texas Instruments" might be incorrectly censored due to "Texas" being recognized as a potential address component.
+
+4. **English Language Documents**: The tool's design and testing are predicated on the assumption that it will be applied to documents written in English. This focus means that documents in other languages may not be processed with the same level of accuracy, as the entity recognition models are optimized for English text.
+
 
 
 
