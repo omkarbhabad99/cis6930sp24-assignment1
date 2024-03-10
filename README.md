@@ -13,5 +13,6 @@
 5. Navigate to the project's root directory in your terminal.
 6. "The Censoror" relies on the spaCy NLP library. Download the required English model by running the command `python -m spacy download en_core_web_md`.
 7. Place your Google Cloud service account key file (spherical-gate-416621-bf139b8e78c0.json) in the project directory.
-8. Execute the script by running `pipenv run python censoror.py --input '*.txt' --names --dates --phones --address --output 'files/' --stats stderr`.
+8. Then, set the environment variable to point to your JSON key file: Using powershell `$env:GOOGLE_APPLICATION_CREDENTIALS="spherical-gate-416621-bf139b8e78c0.json"`
+9. Execute the script by running `pipenv run python censoror.py --input '*.txt' --names --dates --phones --address --output 'files/' --stats stderr`.
 
