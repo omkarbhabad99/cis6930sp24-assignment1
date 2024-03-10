@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "spherical-gate-416621",
+  "private_key_id": "bf139b8e78c01d89506ba136389da3df71a43caf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC439cWBPaxwVyI\nrjy6zE+Wjh7g0b2wkhYMYDbQoEFyAVJRq5dyBDqAVtlVJuBnNh4MrdqKwkKSPQP6\nel6FhKuVBP1RPLMubhbUEggH7LOopUcZhKodalI0jxYp956Rfqqyv7++9oli0y0Q\n1oTEQONoXZ+RB+trtcuyNOLkuGcy/VIny646nSQSAiob66UXzVooc2l4kVxQOP8G\nERc8T1yirkIM/VfntXdBtCdTA3io/BjsDLL7JMg2ffre4nXfb9VUEyDo+zZtuXJT\nqFhuv/ubE/Ok7IAkdA+WaP5Yxz8fR1INJimOXT0vlI0oBGJeKduRCGrXbeQT7s4J\no6+ov8F9AgMBAAECggEAE3P6Pebnzmx6QCeVXFKDTWRG+4EWZK36g/Lb0bgLKuPY\ntZ9IoEaxoS+CTuN4WWPoZY0lodQvDRQ+huy5ZXNAWr3bqeCpOgl7fXUoQy00+lnp\n0VWUUOQPIlisDF5x4P1jGMv0cTOf4TY3V7462iu5whGX6LrcmsjWVjoaZdbBhSvU\n3iML0pc9PGPB0He/jBM3EiZaDfgz3MTCr0aDj0q+VXpRQc5hzmakHqbciOq97+bA\nr+0Ntde2zp8W2BDi90c3CHBXhyT4l6wIESrGZDb7i9/P6EySWKFd/qCIRrZb0QLR\n8deDZT1zEd5L++9SQ8VXJSi9IhAfKT6cAYc4ejmqQQKBgQDeMAZalwB4cInVjEZt\nu05MjBdjY4PWyQYkzZcqrqB6BCpVj4zf8GuXELoTUQS7x6A3GgwIk1oqCwbngUel\nPMc2pu+y1LC8TjXTPvmeg4N8vEU71lroPAJ4+SNR1JzXbMdnfkKagw5qJXXjMj59\nJFyZk8l2yh6CjFX449E7VyxBZwKBgQDVAisekRXYozcPgQkAkwnsvk+w/AW7ZQW7\nLzmrmHADR3mTie0RVDpWydAVzESSUEG5xs0UBi3vTuJhgPSwQg7YTdRu/UGTyc+o\nsDJOcsIlq037z+MqbMK3SGO1wDUAqtQmYDVU9LStpRg1wa2cDZDcn/9QT1emrRmH\nVTg+ztLjewKBgFRaZT8lTu9qwlmJrP9h+iMDmKmKEXaM0UFNsFNrAs/wHuZm3nPy\ngdZTamGFA8gKzN++is0CrFuD3jYsFbg87+Dm1d/N8d87ziGKKhitE1Fa5OoHwnGi\nvsmQxID/uB/tU3MOM1kX4nQYDr6Xx7OZB3Li8byglZ64irc4PqpJuSqHAoGARVOp\nWQ97fsDQYNlsZqV0q3rdUQsVioI8tUmPiYvZmRegOCbB48v4GNsiQJX1E3HPknlj\nscq5FJQmFfn0qZE2Z6wdIeqHd2RNk+eU1/d9vOjePsDQfLRdQ23qFfNyzL7MwZi6\nguYKECIVmRlqOcoohcYFQMwyCOt5zZQs9DQ4axUCgYAW91zfshW8bZ32tw3oYz90\nkJznj1VZorIw6Ir9e8rsitZ37TFvssABVbjzbG3j4X4jIS+i9bGIISBRzsUu9Ld+\nvcuJhyy9KZsy1cyt92ivW295gw3gk/OrEfUJAd9z6dhylGnFAkk9ArzFdncvpxK2\nhTVDFUyo8rbTKusSk/cyVw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "censoror@spherical-gate-416621.iam.gserviceaccount.com",
+  "client_id": "115843726254627917674",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/censoror%40spherical-gate-416621.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
