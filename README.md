@@ -56,4 +56,31 @@
 ### censor_phone_numbers
 - **Purpose**: Applies regex to identify and censor various phone number formats present in the text. It plays a critical role in ensuring that personal contact numbers are not exposed in the censored documents.
 
+## Testing Functions
+
+tests are designed to verify the functionality of each censorship feature—names, dates, phone numbers, and addresses—using a suite of predefined text examples. Designed to be executed with `pipenv run python -m pytest`, these tests offer a systematic approach to validate each part of the censoring process, covering a range of scenarios to ensure robustness and reliability.
+
+### Test Files Overview
+
+1. **`test_names.py`**: 
+   - **`test_censor_single_name`**: Validates that a single name within a sentence is correctly identified and censored.
+   - **`test_censor_full_name`**: Ensures that full names, including first and last names, are accurately detected and censored, demonstrating the script's ability to handle multi-word entities.
+
+2. **`test_phones.py`**:
+   - **`test_censor_simple_phone`**: Checks the script's ability to recognize and censor phone numbers in a straightforward pattern.
+   - **`test_censor_formatted_phone`**: Tests the censoring of phone numbers that are formatted with parentheses and dashes, assessing the flexibility of the phone number detection logic.
+
+3. **`test_address.py`**:
+   - **`test_censor_address`**: Verifies that physical addresses are correctly identified and censored, regardless of their complexity.
+   - **`test_censor_address_with_punctuation`**: Assesses the script's capability to censor addresses that include punctuation, ensuring that the entire address is censored accurately.
+
+4. **`test_dates.py`**:
+   - **`test_censor_simple_date`**: Focuses on the script's ability to detect and censor dates in a simple numeric format.
+   - **`test_censor_full_date`**: Evaluates the censoring of fully written dates, including those with month names and ordinal numbers, testing the script's natural language processing capabilities.
+
+
+
+
+
+
 
