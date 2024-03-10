@@ -10,7 +10,7 @@ import sys
 import spacy.cli
 
 # Load the transformer-based spaCy model
-# spacy.cli.download("en_core_web_trf")
+spacy.cli.download("en_core_web_trf")
 nlp = spacy.load("en_core_web_trf")
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'spherical-gate-416621-bf139b8e78c0.json'
