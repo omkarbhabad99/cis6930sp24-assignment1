@@ -78,7 +78,7 @@ tests are designed to verify the functionality of each censorship feature—name
    - **test_censor_simple_date**: Focuses on the script's ability to detect and censor dates in a simple numeric format.
    - **test_censor_full_date**: Evaluates the censoring of fully written dates, including those with month names and ordinal numbers, testing the script's natural language processing capabilities.
 
-### Assumptions
+## Assumptions
 
 1. **Case Sensitivity in Names**: The tool primarily detects names that start with uppercase letters. Names beginning with lowercase, like "allen" or "john," might not be consistently censored, affecting the tool's ability to fully anonymize text documents.
 
